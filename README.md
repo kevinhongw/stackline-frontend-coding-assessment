@@ -1,5 +1,9 @@
 # Stackline Frontend Coding Assessment
 
+## Demo site
+
+https://kevinhongw.github.io/stackline-frontend-coding-assessment
+
 ## Prompt
 
 - A solution that resembles the provided mockup closely and implements AT LEAST ONE of either the graph or table as seen in the mockup
