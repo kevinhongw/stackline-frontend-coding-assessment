@@ -1,6 +1,6 @@
 import React from "react"
 import Grid from "@mui/material/Unstable_Grid2/Grid2"
-import { Box } from "@mui/material"
+import { Container } from "@mui/material"
 
 import { useGetMerchantsQuery } from "./merchantApiSlice"
 import MerchantInfo from "./MerchantInfo"
@@ -22,7 +22,7 @@ const Merchant: React.FC<Props> = ({ merchantId }) => {
   })
 
   return (
-    <Box padding={"32px"} sx={{ backgroundColor: "#f8f8f8" }}>
+    <Container maxWidth="xl" sx={{ padding: "32px" }}>
       <Grid container spacing={2}>
         <Grid md={2.5}>
           <MerchantInfo merchant={merchant} loading={isFetching} />
@@ -41,7 +41,7 @@ const Merchant: React.FC<Props> = ({ merchantId }) => {
           />
         </Grid>
       </Grid>
-    </Box>
+    </Container>
   )
 }
 
