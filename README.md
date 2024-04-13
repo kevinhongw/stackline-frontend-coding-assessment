@@ -11,9 +11,7 @@
 
 - React
 - Redux-toolkit
+- Rechart
+- Material UI
 - Vite
-- Github
-
-Assets to be returned via email within the provided time frame:
-A public git repository to view the final code
-A public URL to view the web page --- can be hosted on GitHub Pages, AWS, Vercel, etc.
+- Github Page
