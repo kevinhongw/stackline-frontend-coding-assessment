@@ -13,4 +13,5 @@ export default defineConfig({
     setupFiles: "src/setupTests",
     mockReset: true,
   },
+  base: "/stackline-frontend-coding-assessment/",
 })
