@@ -25,9 +25,10 @@ const MerchantInfo: React.FC<Props> = ({ merchant, loading }) => {
             padding={"16px 32px"}
             textAlign={"center"}
             alignItems={"center"}
+            rowGap={"8px"}
           >
             <Box component={"img"} src={merchant.image} maxWidth={"60%"} />
-            <Typography fontSize={"20px"} fontWeight={500}>
+            <Typography fontSize={"16px"} fontWeight={500}>
               {merchant.title}
             </Typography>
             <Typography color={"#aaa"} fontSize={"12px"}>
